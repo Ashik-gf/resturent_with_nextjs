@@ -12,7 +12,7 @@ const SingleCategory = ({ params }) => {
             <div className="flex justify-between items-center mb-8">
                 <div>
                     <h1 className="text-4xl font-bold mb-2 px-2">
-                        {category.map(cate => <span>{cate.name}</span>)}
+                        {category.map((cate) => <span key={cate.id}>{cate.name}</span>)}
                         <span className="text-gray-500 text-2xl font-normal space-x-2">({datas.length})</span>
                     </h1>
                     <p className="text-gray-600">

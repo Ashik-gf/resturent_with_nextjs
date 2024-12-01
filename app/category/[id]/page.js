@@ -55,7 +55,7 @@ const DetailsPage = ({ params }) => {
                         className=" w-full h-[700px] mb-8 rounded-lg" />
                     <p className="text-gray-600 mb-8">
                         One thing I learned living in the Catskills section of Brooklyn, NY was how to cook a good Italian meal. Here
-                        is a recipe I created after having this dish in a restaurant. Enjoy!
+                        is a recipe I created after having this dish in a restaurant. Enjoy
                     </p>
 
                     <h2 className="text-3xl font-bold mb-4">Before you begin</h2>
@@ -67,7 +67,7 @@ const DetailsPage = ({ params }) => {
 
                     <h2 className="text-3xl font-bold mb-4">Here are the basics</h2>
                     <p className="mb-8">
-                        Juicy meatballs brisket slammin' baked shoulder. Juicy smoker soy sauce burgers brisket. polenta mustard hunk
+                        Juicy meatballs brisket slammin baked shoulder. Juicy smoker soy sauce burgers brisket. polenta mustard hunk
                         greens. Wine technique snack skewers chuck excess. Oil heat slowly. slices natural delicious, set aside magic
                         tbsp skillet, bay leaves brown centerpiece. fruit soften edges frond slices onion snack pork steem on wines
                         excess technique cup; Cover smoker soy sauce.
@@ -76,7 +76,7 @@ const DetailsPage = ({ params }) => {
                     <blockquote className="text-3xl font-bold italic text-center my-12 px-4">
                         "One cannot think well, love well, sleep well, if one has not dined well."
                     </blockquote>
-                    <p className="text-center text-gray-600 mb-12">— Virginia Woolf, A Room of One's Own</p>
+                    <p className="text-center text-gray-600 mb-12">— Virginia Woolf, A Room of Ones Own</p>
 
                     <h2 className="text-3xl font-bold mb-4">In the kitchen</h2>
                     <p className="mb-8">
@@ -93,7 +93,7 @@ const DetailsPage = ({ params }) => {
                         className="w-full h-auto mb-8 rounded-lg max-w-xl mx-auto" />
 
                     <p className="mb-8">
-                        Juicy meatballs brisket slammin' baked shoulder. Juicy smoker soy sauce burgers brisket. polenta mustard hunk
+                        Juicy meatballs brisket slammin baked shoulder. Juicy smoker soy sauce burgers brisket. polenta mustard hunk
                         greens. Wine technique snack skewers chuck excess. Oil heat slowly. slices natural delicious, set aside magic
                         tbsp skillet, bay leaves brown centerpiece. fruit soften edges frond slices onion snack pork steem on wines
                         excess technique cup; Cover smoker soy sauce.
