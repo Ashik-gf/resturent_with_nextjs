@@ -24,8 +24,9 @@ const LatestRecipys = () => {
             <h2 className="text-3xl font-bold mb-8">Latest Recipes</h2>
             <div className="grid md:grid-cols-4 gap-8">
                 {latestFourRecipes.map((recipe, index) => (
-                    <Link href={`/category/${recipe.category_id}`}>
-                        <div key={recipe.id}>
+                    <Link key={recipe.id}
+                        href={`/category/${recipe.category_id}`}>
+                        <div >
                             <Image
                                 src={recipe.thumbnail}
                                 width={100}

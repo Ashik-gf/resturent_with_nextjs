@@ -8,6 +8,7 @@ const Header = () => {
                 <Link href="/index.html" className="text-3xl font-bold">
                     <Image
                         src={logo}
+                        alt="this is logo"
                         className="h-10 w-24" />
                 </Link>
                 <ul className="hidden md:flex space-x-6">

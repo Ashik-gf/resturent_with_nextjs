@@ -1,5 +1,6 @@
 import Link from "next/link"
 import categories from "../data/categories"
+import Image from "next/image"
 function Category() {
     return (
         <main className="container mx-auto px-4 py-8 mt-[100px]">
@@ -13,7 +14,7 @@ function Category() {
                         key={category.id}>
                         <div className="text-center">
                             <div className="overflow-hidden rounded-full mb-4 relative cursor-pointer">
-                                <img
+                                <Image
                                     src={category.image}
                                     width={100}
                                     height={400}

@@ -10,7 +10,7 @@ const HandPickCollections = () => {
             <div className="grid md:grid-cols-2 gap-8">
                 {
                     sortRecipes.map((recipe) => <div
-                        key={recipe.id}
+                        key={recipe.category_id}
                         className="relative group overflow-hidden rounded-lg transition-transform duration-300 ease-in-out transform cursor-pointer">
                         <Image
                             src={recipe.thumbnail}
