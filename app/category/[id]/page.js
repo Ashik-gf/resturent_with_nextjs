@@ -74,7 +74,7 @@ const DetailsPage = ({ params }) => {
                     </p>
 
                     <blockquote className="text-3xl font-bold italic text-center my-12 px-4">
-                        "One cannot think well, love well, sleep well, if one has not dined well."
+                        One cannot think well, love well, sleep well, if one has not dined well.
                     </blockquote>
                     <p className="text-center text-gray-600 mb-12">— Virginia Woolf, A Room of Ones Own</p>
 
@@ -105,15 +105,17 @@ const DetailsPage = ({ params }) => {
                 <h2 className="text-3xl font-bold mb-8">You might also like</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                     {
-                        latestRecipes.map((like) => <Link href={`/category/${like.id}`}> <div>
-                            <Image
-                                width={100}
-                                height={400}
-                                src={like.image}
-                                alt="Recipe 1"
-                                className="w-full h-60 object-cover rounded-lg mb-2" />
-                            <h3 className="font-semibold">{like.name}</h3>
-                        </div> </Link>)
+                        latestRecipes.map((like) => <Link
+                            key={like.id}
+                            href={`/category/${like.id}`}> <div>
+                                <Image
+                                    width={100}
+                                    height={400}
+                                    src={like.image}
+                                    alt="Recipe 1"
+                                    className="w-full h-60 object-cover rounded-lg mb-2" />
+                                <h3 className="font-semibold">{like.name}</h3>
+                            </div> </Link>)
                     }
 
                 </div>
